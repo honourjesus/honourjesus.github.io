@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Honour-Jesus Bezaleel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="site-title"><a href="index.html">Honour-Jesus Bezaleel</a></div>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="publications.html" class="active">Publications</a>
+      <a href="news.html">Highlights</a>
+      <a href="community.html">Community</a>
+      <a href="HONOUR-JESUS-BEZALEEL-FlowCV-Resume-20260104__1_.pdf" target="_blank">CV</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Publications</h1>
+    <p class="page-intro">
+      My research spans low-resource African language speech processing, cascaded NLP pipelines for education,
+      and the failure modes of large language models in multilingual, high-stakes settings.
+    </p>
+
+    <section>
+      <h2>Research Papers</h2>
+
+      <div class="pub-card">
+        <div class="pub-meta">
+          <span class="venue under-review">Under Review</span>
+        </div>
+        <p class="pub-title">Beyond Translation: Typology-Aware Speech Adaptation for Hausa in High-Stakes Digital Assessment</p>
+        <p class="pub-authors">Bezaleel, H.-J.</p>
+        <p class="pub-desc">
+          Manuscript under review. Addresses the unique phonological and tonal structure of Hausa and proposes
+          typology-aware adaptation pipelines for deploying speech models in digital educational assessments.
+          Demonstrates that ignoring linguistic typology leads to systematic degradation in downstream comprehension tasks.
+        </p>
+        <div class="pub-links">
+          <a href="https://openreview.net/profile?id=~Honour-Jesus_Bezaleel1" target="_blank">OpenReview</a>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-meta">
+          <span class="venue under-review">Under Review</span>
+        </div>
+        <p class="pub-title">Self-Training with Confidence-Based Filtering for African ASR at Scale</p>
+        <p class="pub-authors">Bezaleel, H.-J.</p>
+        <p class="pub-desc">
+          Designs a multi-signal pseudo-label filtering framework combining decoder log-probability, CTC–decoder
+          agreement (via an auxiliary CTC head on the Whisper encoder), length-ratio constraints, and language-ID
+          confidence. Retains only samples passing all four gates. Full ablation study across seven filter combinations
+          and four unlabelled data scales (25h–200h per language) isolates per-signal contribution and identifies
+          filtering saturation points.
+        </p>
+        <div class="pub-links">
+          <a href="https://openreview.net/profile?id=~Honour-Jesus_Bezaleel1" target="_blank">OpenReview</a>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-meta">
+          <span class="venue iclr">ICBINB @ ICLR 2026</span>
+        </div>
+        <p class="pub-title">Why Large Language Models Fail for Hausa Educational Content: Cascading Errors From Translation to Speech to Comprehension</p>
+        <p class="pub-authors">Bezaleel, H.-J. (2026)</p>
+        <p class="pub-desc">
+          Presents a systematic failure analysis of end-to-end LLM pipelines for Hausa educational content.
+          Traces how semantic omission in machine translation, lexical diversity collapse (TTR: 17.3% → 13.9%),
+          LLM hallucination, and 100% tonal error rates in baseline ASR models cascade through the pipeline,
+          reducing reasoning accuracy from 82% to under 30% on downstream tasks.
+        </p>
+        <div class="pub-links">
+          <a href="https://openreview.net/profile?id=~Honour-Jesus_Bezaleel1" target="_blank">OpenReview</a>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-meta">
+          <span class="venue indaba">Deep Learning Indaba 2025 — Poster</span>
+        </div>
+        <p class="pub-title">Bridging Language Barriers in Education Using TTS–ASR Approaches for Low-Resource Languages in Nigeria</p>
+        <p class="pub-authors">Bezaleel, H.-J. (2025)</p>
+        <p class="pub-desc">
+          Poster presentation. Develops and evaluates end-to-end TTS–ASR pipelines for Nigerian low-resource languages,
+          validated on the HausaPQ-Speech corpus (1,000 human-validated samples). Reports WER variance of 68–92% for
+          baseline models and establishes evaluation benchmarks using WER, CER, and MOS metrics.
+        </p>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-meta">
+          <span class="venue preprint">ResearchGate 2024</span>
+        </div>
+        <p class="pub-title">Statistical Analysis of Unemployment and Job Placement in Nigeria</p>
+        <p class="pub-authors">Bezaleel, H.-J. (2024)</p>
+        <p class="pub-desc">
+          Applies statistical inference and data visualisation methods to analyse unemployment trends and
+          job placement outcomes across Nigeria's labour market, with implications for policy and skills development.
+        </p>
+        <div class="pub-links">
+          <a href="https://www.researchgate.net/profile/Honour-Jesus-Bezaleel" target="_blank">ResearchGate</a>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-meta">
+          <span class="venue preprint">White Paper Chapter 2023</span>
+        </div>
+        <p class="pub-title">Impact of Generative AI on Beginner-Level Tech Enthusiasts</p>
+        <p class="pub-authors">Bezaleel, H.-J. (2023)</p>
+        <p class="pub-desc">
+          In <em>Generative AI Possibilities: A White Paper on Use Cases</em> (pp. 12–18).
+          Examines how generative AI tools shape skill acquisition trajectories for early-career practitioners
+          in the Global South, with a focus on community-learners in Nigeria.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>External Profiles</h2>
+      <div class="profile-links">
+        <a href="https://openreview.net/profile?id=~Honour-Jesus_Bezaleel1" target="_blank">OpenReview Profile</a>
+        <a href="https://www.researchgate.net/profile/Honour-Jesus-Bezaleel" target="_blank">ResearchGate Profile</a>
+        <a href="https://github.com/honourjesus20" target="_blank">GitHub (Code &amp; Projects)</a>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
